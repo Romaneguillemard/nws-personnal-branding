@@ -9,32 +9,70 @@ header {
   display: flex;
   justify-content: right;
   list-style: none;
-  padding: 0;
+  padding-top: -50%;
 }
 
 .menu a {
   padding: 10px 15px;
   text-decoration: none;
   color: black;
-  font-family: "Bely";
+  font-family: "Roboto";
   font-weight: bold;
 }
 
 h3 {
   text-align: center;
   font-family: "Roboto";
+  font-size: 200%;
 }
 
 h4 {
   text-align: center;
   font-family: "Roboto";
+  font-size: 150%;
 }
 
-.illustrationprincipale {
-  width: 100%;
-  height: 20px;
+.illustration {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logoromane {
-  height: 90px;
+  height: 100px;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Optima";
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+hr {
+  color: red;
+  width: 100px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.competences {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  margin-top: 50px;
+}
+
+.competences img {
+  justify-self: center;
+}
+
+.galerie > * {
+  width: 200px;
+  max-width: 100%;
+  margin: auto;
 }
