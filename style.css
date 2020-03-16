@@ -9,14 +9,15 @@ header {
   display: flex;
   justify-content: right;
   list-style: none;
-  padding-top: -50%;
+  padding-top: -40%;
+  margin-right: 10%;
 }
 
 .menu a {
-  padding: 10px 15px;
+  padding: 5px 10px;
   text-decoration: none;
   color: black;
-  font-family: "Roboto";
+  font-family: "Optima";
   font-weight: bold;
 }
 
@@ -26,10 +27,10 @@ h3 {
   font-size: 200%;
 }
 
-h4 {
+h2 {
   text-align: center;
   font-family: "Roboto";
-  font-size: 150%;
+  font-size: 30px;
 }
 
 .illustration {
@@ -38,9 +39,9 @@ h4 {
   margin-right: auto;
 }
 
-.logoromane {
-  height: 100px;
-  margin-left: 4%;
+.logo {
+  height: 70px;
+  margin-left: 6%;
   margin-top: 2%;
 }
 
@@ -55,7 +56,7 @@ p {
 
 hr {
   color: red;
-  width: 100px;
+  width: 150px;
   margin-top: 3%;
   margin-bottom: 3%;
 }
@@ -80,4 +81,8 @@ hr {
 
 .articles img {
   justify-self: center;
+}
+
+.intro {
+  text-align: center;
 }
