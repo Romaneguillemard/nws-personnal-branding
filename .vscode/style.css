@@ -119,14 +119,6 @@ img {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-}
-
-.logofooter {
-  height: 20px;
-}
-
 @media screen and (min-width: 940px) {
   .site-header {
     flex-direction: row;
@@ -136,6 +128,6 @@ footer {
     margin-left: auto;
   }
   .articles {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
